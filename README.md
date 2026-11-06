@@ -1,40 +1,65 @@
-# Theme Repository for Zen Browser
+# Kuro Browser Theme Repository
 
-🎨 Theme repository for @zen-browser!
+🎨 The official community theme repository for [Kuro Browser](https://github.com/kuro-browser)!
 
+This repository is home to community-created themes for Kuro Browser. Discover, share, and contribute themes to customize your browsing experience.
 
 ## Submitting a Theme
 
-To submit a theme, please follow these steps:
+To submit a new theme, follow these steps:
 
-* Open an issue in [this template](https://github.com/zen-browser/theme-store/issues/new?assignees=&labels=new-theme&projects=&template=create-theme.yml&title=%5Bcreate-theme%5D%3A+) with the title `[create-theme]: <theme-name>`
-* Fill out the template with the necessary information
-* Submit the issue
-* Let us take care of the rest!
+1. Open a new issue using the [Theme Submission Template](../../issues/new).
+2. Set the title to `[create-theme]: <theme-name>`.
+3. Fill out the template with all the required information, including your theme files and details.
+4. Submit the issue.
+5. Our team will review your submission and handle the rest!
+
+Please make sure your theme follows the repository guidelines before submitting.
 
 ## Updating a Theme
 
-To update a theme, please follow these steps:
+To update an existing theme, follow these steps:
 
-* Create a new pull request with the updated theme
-* Make sure to include the theme name in the title
-* Submit the pull request
-* Let us take care of the rest!
+1. Fork this repository.
+2. Make your changes to the existing theme.
+3. Create a pull request with your updated theme.
+4. Include the theme name in your pull request title.
+5. Describe the changes and submit your pull request.
+6. Our team will review your changes and merge them if approved.
 
-> This applied to any other actions you want to take with the themes in this repository, such as deleting a theme.
+The same process applies to other theme-related changes, including removing or fixing existing themes.
 
-## Workflow Bots
+## Workflow Automation
 
-We make use of GitHub Actions to automate the workflow of the themes in this repository. Here's how it works:
+We use GitHub Actions to help automate theme submissions and updates.
 
-When creating a new theme, the bot will automatically create the files and folders needed for the theme to be added to the store. The bot will also close the issue and automatically create a pull request for the theme.
+**New theme submissions:**
+- Once a theme submission is approved, automation can create the necessary files and folders.
+- A pull request will be generated for review.
+- After approval, the theme can be added to the repository.
 
-When updating a theme, the bot will automatically update the theme files and folders with the new changes. This will directly push the changes to the main branch.
+**Theme updates:**
+- GitHub Actions can help validate and process theme updates.
+- Changes will be reviewed before being merged into the main branch.
 
-> We do this to make our lives easier and to make the process of adding and updating themes more efficient. We are always open to suggestions and feedback, so feel free to open an issue if you have any!
+Automation helps us keep the repository organized and makes contributing easier for everyone.
+
+## Contributing
+
+We welcome contributions from the Kuro community!
+
+Whether you're creating a new theme, improving an existing one, fixing issues, or suggesting improvements, your contributions are appreciated.
+
+Please follow the repository guidelines and respect the work of other theme creators.
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+The repository's source code and automation are licensed under the [MIT License](LICENSE).
 
-All themes in this repository are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Individual themes may have their own licensing terms. Please check each theme's license before using, modifying, or redistributing it.
+
+---
+
+**Made for the community. Built for everyone.**
+
+*Kuro Browser is free, open source, and privacy-focused.*
